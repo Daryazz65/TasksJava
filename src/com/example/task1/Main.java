@@ -1,4 +1,6 @@
-package task1;
+package com.example.task1;
+
+import com.example.util.StringUtil;
 
 public class Main {
     public static void main(String[] args) {

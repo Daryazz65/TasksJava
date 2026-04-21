@@ -1,4 +1,4 @@
-package task1;
+package com.example.util;
 
 public class StringUtil {
     public static String reverseString(String str) {
