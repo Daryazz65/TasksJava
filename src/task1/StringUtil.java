@@ -1,11 +1,7 @@
-package Task1;
+package task1;
 
-public class Main {
-    public static void main(String[] args) {
-        Main m = new Main();
-        System.out.println(m.reverse("J@va the be$t!123"));
-    }
-    String reverse(String str) {
+public class StringUtil {
+    public static String reverseString(String str) {
         char[] arr = str.toCharArray();
         int left = 0;
         int right = arr.length - 1;
