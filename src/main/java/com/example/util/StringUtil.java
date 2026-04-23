@@ -2,6 +2,9 @@ package com.example.util;
 
 public class StringUtil {
     public static String reverseString(String str) {
+        if (str == null) {
+            return null;
+        }
         char[] arr = str.toCharArray();
         int left = 0;
         int right = arr.length - 1;
